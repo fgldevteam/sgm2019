@@ -1,0 +1,91 @@
+.avengers{
+    background-color: #6a5acd;
+}
+.bison{
+    background-color: #932230;
+}
+.blitz{
+     background-color: #4D74C1;
+}
+.beast{
+     background-color: #4b4b4b;
+}
+.carnivores{
+     background-color: #E4A353;
+}
+.cannibals{
+     background-color: #D3181E;
+}
+.dragons{
+     background-color: #FF8835;
+}
+.enforcers{
+     background-color: #FFD335;
+}
+.fugitives{
+     background-color: #BAC9C1;
+}
+.cobras{
+     background-color: #ff5602;
+}
+.lumberjacks{
+     background-color: #FFE892;
+}
+.mammoths{
+     background-color: #ff1f06;
+}
+.marauders{
+     background-color: #F6BF37;
+}
+.mustangs{
+     background-color: #b0c784;
+}
+.monsters{
+     background-color: #ff3329;
+}
+.phoenix{
+     background-color: #F33840;
+}
+.rampage{
+     background-color: #fce38f;
+}
+.rhinos{
+     background-color: #467CF3;
+}
+.swarm{
+     background-color: #FF992F;
+}
+.samurai{
+    background: #ee2424;
+}
+.tigers{
+     background-color: #FFA438;
+}
+.vipers{
+    background-color: #24928e;
+}
+.wolfpack{
+    background-color: #4b4b4b;
+}
+.gladiators{
+     background-color: #FF302A;
+}
+.owls{
+     background-color: #E04964;
+ }
+
+.logo img{
+    position: relative;
+    bottom: 25%;
+    left: -25%;
+    height: 150%;
+    width: 150%;
+}
+
+.teamnamelogo img{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 500%;
+    width: 500%;  
+}

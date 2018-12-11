@@ -1,0 +1,140 @@
+html, body{
+    height: 100%;
+    overflow: hidden;
+    font-size: 10px !important;   
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #000 url('bg.jpg') top left no-repeat;
+    background-attachment: fixed;
+    font-size: 10px !important;  
+}
+
+.container{
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.team{
+    width: 100% !important;
+    /* height: 18% !important; */
+    margin: 1% auto;
+    border-bottom: 1px solid rgb(148, 148, 148);
+    border-right: 1px solid rgb(148, 148, 148);
+    border-top: 1px solid rgb(107, 107, 107);
+    border-left: 1px solid rgb(107, 107, 107);
+    /* border-right: 1px solid #000; */
+    -webkit-box-shadow: 1px 1px 30px -8px rgba(255,255,255,1);
+    -moz-box-shadow: 1px 1px 30px -8px rgba(255,255,255,1);
+    box-shadow: 1px 1px 30px -8px rgba(255,255,255,1);  
+    /* display: block; */
+    /* clear: both;   */
+    overflow: hidden;
+    display: flex;
+
+    /* margin: 0 0 2% 0; */
+}
+
+    .rank{
+        /* line-height: 200px; */
+        /* display: flex; */
+        margin: 0 !important;
+        
+        padding: 0 !important;
+        
+        text-align: center;
+        height: 100%;
+        width: 20%;
+        background-color: rgb(15, 15, 15);
+        font-family: 'Prompt';
+        /* font-size: 16em; */
+        /* font-size: 10px; */
+        
+        
+        /*
+        MAC SETTINGS:
+            font-size: 16em;
+            line-height: 160px;
+        */
+
+        font-size: 13em;
+        line-height: 110px;
+
+        float: left;
+        color: #b9b18e;
+        /* text-shadow: 2px 2px 0px #ffea8c; */
+        text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #000,
+               0 3px 0 #ffea8c,
+               0 4px 0 #ffea8c,
+               0 5px 0 #ffea8c,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
+    }
+
+    .logo{
+        overflow: hidden;
+        float: left;
+        display: flex;
+
+        /* display: inline; */
+        /* text-align: center; */
+        height: 100%;
+        width: 19.5%;
+        min-height: 100%;
+        /* margin: 0 !important;
+        padding: 0 !important; */
+        /* height: auto !important; */
+        /* height: 200px; */
+        
+        /* width: 19.5%;   */
+        /* float: left; */
+        /* overflow:hidden; */
+        /* display: block; */
+        border-right: 4px solid #000;
+    
+    
+    }
+
+
+    /* .logo img{ display: none;} */
+
+    /* .logo img{border: thin solid lime; height: auto;} */
+
+    .teamnamelogo{
+        width: 60%;
+        height: 100%;
+        background-color: black;
+        float: left;
+        display: inline;
+        color: #fff;
+    }
+
+    .teamname{
+        position: relative;
+        top: 0px;
+        width: 80%;
+        margin: 5% auto;
+        height: 30%;
+        padding-top: 10px;
+        /* padding: 20px 0px 10px 0px; */
+        /* background-color: aquamarine; */
+        background: transparent url('000000-0.95.png') top left repeat;
+        -webkit-box-shadow: 1px 1px 30px -8px rgba(255,255,255,1);
+        -moz-box-shadow: 1px 1px 30px -8px rgba(255,255,255,1);
+        box-shadow: 1px 1px 30px -8px rgba(255,255,255,1);
+        text-align: center;
+        font-family: 'Exo';
+        font-size: 2.5em;
+        text-transform: uppercase;
+    }
+
