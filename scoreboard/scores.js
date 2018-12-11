@@ -21,10 +21,10 @@ var scores = [
         "score": 8983.91
     },
     {
-        "teamName": "Brown",
+        "teamName": "Browns Bruins",
         "class": "brown",
         "colour": "#593800",
-        "logo": "",
+        "logo": "Browns-Bruins.svg",
         "score": 2.78
     }, 
     {
@@ -49,10 +49,10 @@ var scores = [
         "score": 8973.14
     },
     {
-        "teamName": "Haennel",
+        "teamName": "Haennels Hurricanes",
         "class": "haennel",
-        "colour": "#66ffce",
-        "logo": "",
+        "colour": "#6b01a0",
+        "logo": "Haennels-Hurricanes.svg",
         "score": 2.78
     },     
     {
@@ -77,10 +77,10 @@ var scores = [
         "score": 8952.90
     },
     {
-        "teamName": "Marino",
+        "teamName": "Marinos Mayhem",
         "class": "marino",
-        "colour": "#ef5888",
-        "logo": "",
+        "colour": "#0058a0",
+        "logo": "Marinos-Mayhem.svg",
         "score": 8852.78
     },  
     {
@@ -95,7 +95,7 @@ var scores = [
         "class": "monsters",
         "colour": "#ff3329",
         "logo": "morales-ryans_monsters.svg",
-        "score": 303.01
+        "score": 9999303.01
     },
     {
         "teamName": "Rangers Rampage",
