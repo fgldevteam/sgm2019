@@ -21,26 +21,33 @@ var scores = [
         "score": "3.91"
     },
     {
+        "teamName": "Brown",
+        "class": "brown",
+        "colour": "#593800",
+        "logo": "",
+        "score": "2.78"
+    }, 
+    {
         "teamName": "Braunds Beast",
         "class": "beast",
         "colour": "#4b4b4b",
         "logo": "braunds_beast.svg",
         "score": "3.87"
     },
-    {
-        "teamName": "Conways Carnivores",
-        "class": "carnivores",
-        "colour": "#E4A353",
-        "logo": "conways_carnivores.svg",
-        "score": "2.78"
-    },
-    {
-        "teamName": "Crouters Cannibals",
-        "class": "cannibals",
-        "colour": "#D3181E",
-        "logo": "crouters_cannibals.svg",
-        "score": "2.10"
-    },
+    // {
+    //     "teamName": "Conways Carnivores",
+    //     "class": "carnivores",
+    //     "colour": "#E4A353",
+    //     "logo": "conways_carnivores.svg",
+    //     "score": "2.78"
+    // },
+    // {
+    //     "teamName": "Crouters Cannibals",
+    //     "class": "cannibals",
+    //     "colour": "#D3181E",
+    //     "logo": "crouters_cannibals.svg",
+    //     "score": "2.10"
+    // },
     {
         "teamName": "Dekkers Dragons",
         "class": "dragons",
@@ -48,13 +55,13 @@ var scores = [
         "logo": "dekkers_dragons.svg",
         "score": "3.11"
     },
-    {
-        "teamName": "Ehrlicks Enforcers",
-        "class": "enforcers",
-        "colour": "#FFD335",
-        "logo": "ehrlicks_enforcers.svg",
-        "score": "1.79"
-    },
+    // {
+    //     "teamName": "Ehrlicks Enforcers",
+    //     "class": "enforcers",
+    //     "colour": "#FFD335",
+    //     "logo": "ehrlicks_enforcers.svg",
+    //     "score": "1.79"
+    // },
     {
         "teamName": "Friesens Fugitives",
         "class": "fugitives",
@@ -62,6 +69,13 @@ var scores = [
         "logo": "friesens_fugitives.svg",
         "score": "3.14"
     },
+    {
+        "teamName": "Haennel",
+        "class": "haennel",
+        "colour": "#66ffce",
+        "logo": "",
+        "score": "2.78"
+    },     
     {
         "teamName": "Kotsopoulos Cobras",
         "class": "cobras",
@@ -84,12 +98,19 @@ var scores = [
         "score": "2.90"
     },
     {
-        "teamName": "McColgans Marauders",
-        "class": "marauders",
-        "colour": "#F6BF37",
-        "logo": "mccolgans_marauders.svg",
-        "score": "1.18"
-    },
+        "teamName": "Marino",
+        "class": "marino",
+        "colour": "#ef5888",
+        "logo": "",
+        "score": "2.78"
+    },  
+    // {
+    //     "teamName": "McColgans Marauders",
+    //     "class": "marauders",
+    //     "colour": "#F6BF37",
+    //     "logo": "mccolgans_marauders.svg",
+    //     "score": "1.18"
+    // },
     {
         "teamName": "McEacherns Mustangs",
         "class": "mustangs",
@@ -104,13 +125,13 @@ var scores = [
         "logo": "morales-ryans_monsters.svg",
         "score": "3.01"
     },
-    {
-        "teamName": "Philips Phoenix",
-        "class": "phoenix",
-        "colour": "#F33840",
-        "logo": "philips_phoenix.svg",
-        "score": "2.76"
-    },
+    // {
+    //     "teamName": "Philips Phoenix",
+    //     "class": "phoenix",
+    //     "colour": "#F33840",
+    //     "logo": "philips_phoenix.svg",
+    //     "score": "2.76"
+    // },
     {
         "teamName": "Rangers Rampage",
         "class": "Rampage",
@@ -118,13 +139,13 @@ var scores = [
         "logo": "rangers_rampage.svg",
         "score": "2.22"
     },
-    {
-        "teamName": "Reynolds Rhinos",
-        "class": "rhinos",
-        "colour": "#467CF3",
-        "logo": "reynolds_rhinos.svg",
-        "score": "2.90"
-    },
+    // {
+    //     "teamName": "Reynolds Rhinos",
+    //     "class": "rhinos",
+    //     "colour": "#467CF3",
+    //     "logo": "reynolds_rhinos.svg",
+    //     "score": "2.90"
+    // },
     {
         "teamName": "Salewskis Swarm",
         "class": "swarm",
@@ -132,13 +153,13 @@ var scores = [
         "logo": "salewskis_swarm.svg",
         "score": "3.87"
     },
-    {
-        "teamName": "Smiths Samurai",
-        "class": "samurai",
-        "colour": "#ee2424",
-        "logo": "smiths_samurai.svg",
-        "score": "3.23"
-    },
+    // {
+    //     "teamName": "Smiths Samurai",
+    //     "class": "samurai",
+    //     "colour": "#ee2424",
+    //     "logo": "smiths_samurai.svg",
+    //     "score": "3.23"
+    // },
     {
         "teamName": "Toerings Tigers",
         "class": "tigers",
