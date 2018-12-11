@@ -24,42 +24,42 @@ _.each(scoresReversed, function (element, index, list) {
 
     switch(index){
         case 0:
-        case 1:
-        case 2:
-        case 3:
-        case 4:
             currentSlide = "1";
         break;
 
+        case 1:
+        case 2:
+        case 3:        
+        case 4:
         case 5:
-        case 6:
-        case 7:
-        case 8:
-        case 9:
             currentSlide = "2";
         break;
 
+        case 6:
+        case 7:        
+        case 8:
+        case 9:
         case 10:
-        case 11:
-        case 12:
-        case 13:
-        case 14:
             currentSlide = "3";
         break;
 
+        case 11:        
+        case 12:
+        case 13:
+        case 14:
         case 15:
+            currentSlide = "4";
+        break;
+
         case 16:
         case 17:
         case 18:
-        case 19:
-            currentSlide = "4";
-        break;
-        
+        case 19:        
         case 20:
-        case 21:
-        case 22:
-        case 23:
-        case 24:
+        // case 21:
+        // case 22:
+        // case 23:
+        // case 24:
             currentSlide = "5";
         break;
     
@@ -86,8 +86,18 @@ _.each(scoresReversed, function (element, index, list) {
                         `</div>` +
                     `</div>`;
 
+    var teamBoxWinner = `<div class="team-winner" style="height: 500px; background: `+element.colour+` url('/svg/`+element.logo+`') center 50% no-repeat/50%; cover">` +
+                           
+                        `</div>` +
+                         `<div class="teamname-winner">` + element.teamName + `&nbsp;&nbsp;&nbsp;&nbsp;[ `+element.score+` ]  </div>`;
+                    
+
     // console.log(teamBox);
-    $( selector).append(teamBox);
+    if(currentSlide>1){
+        $( selector).append(teamBox);
+    } else {
+        $( selector).append(teamBoxWinner);
+    }
 
 });
 
