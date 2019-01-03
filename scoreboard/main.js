@@ -35,8 +35,9 @@ _.each(scoresReversed, function (element, index, list) {
             currentSlide = "2";
         break;
 
-        case 6:
-        case 7:        
+     
+        case 6:        
+        case 7:
         case 8:
         case 9:
         case 10:
@@ -48,16 +49,16 @@ _.each(scoresReversed, function (element, index, list) {
         case 13:
         case 14:
         case 15:
+        case 16:
             currentSlide = "4";
         break;
 
-        case 16:
         case 17:
         case 18:
         case 19:        
         case 20:
-        // case 21:
-        // case 22:
+        case 21:
+        case 22:
         // case 23:
         // case 24:
             currentSlide = "5";
@@ -76,20 +77,20 @@ _.each(scoresReversed, function (element, index, list) {
 
     var teamBox = `<div class="team" style="height:` + teamH + `px;">` +
                         `<div class="rank">`+ parseInt(index + 1) + `</div>` +
-                        `<div class="logo" style="background: `+element.colour+` url('/svg/`+element.logo+`') center 50% no-repeat/120%; cover">` +
+                        `<div class="logo" style="background: `+element.colour+` url('./svg/`+element.logo+`') center 50% no-repeat/120%; cover">` +
                         //`<img src="/svg/`+ element.logo +`" />` +
                         `</div>` +
-                        `<div class="teamnamelogo" style="background: `+element.colour+` url('/svg/`+element.logo+`') -400px center no-repeat/220%; cover">` +
+                        `<div class="teamnamelogo" style="background: `+element.colour+` url('./svg/`+element.logo+`') -400px center no-repeat/220%; cover">` +
                         `<div class="teamname">` +
-                        element.teamName + `&nbsp;&nbsp;&nbsp;&nbsp;[ `+element.score+` ]  ` +
+                        element.teamName + `&nbsp;&nbsp;&nbsp; `+element.score+` pts ` +
                         `</div>` +
                         `</div>` +
                     `</div>`;
 
-    var teamBoxWinner = `<div class="team-winner" style="height: 500px; background: `+element.colour+` url('/svg/`+element.logo+`') center 50% no-repeat/50%; cover">` +
+    var teamBoxWinner = `<div class="team-winner" style="height: 500px; background: `+element.colour+` url('./svg/`+element.logo+`') center 50% no-repeat/50%; cover">` +
                            
                         `</div>` +
-                         `<div class="teamname-winner">` + element.teamName + `&nbsp;&nbsp;&nbsp;&nbsp;[ `+element.score+` ]  </div>`;
+                         `<div class="teamname-winner">` + element.teamName + `&nbsp;&nbsp;&nbsp; `+element.score+` pts  </div>`;
                     
 
     // console.log(teamBox);
@@ -117,12 +118,12 @@ _.each(scoresReversed, function (element, index, list) {
 
     var teamBox = `<div class="team_all">` +
     `<div class="rank_all">`+ parseInt(index + 1) + `</div>` +
-    `<div class="logo_all" style="background: `+element.colour+` url('/svg/`+element.logo+`') 10% 50% no-repeat/110%; cover">` +
+    `<div class="logo_all" style="background: `+element.colour+` url('./svg/`+element.logo+`') 10% 50% no-repeat/110%; cover">` +
     //`<img src="/svg/`+ element.logo +`" />` +
     `</div>` +
     `<div class="teamnamelogo_all" style="background: `+element.colour+`;">` +
     `<div class="teamname_all">` +
-    element.teamName + `&nbsp;[ `+element.score+` ]  ` +
+    element.teamName + `&nbsp;&nbsp;`+element.score+`` +
     `</div>` +
     `</div>` +
     `</div>`;
